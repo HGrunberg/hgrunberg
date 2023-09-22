@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --clr-primary: #3BAB87;
+    --clr-light: #F2F2F2;
+    --clr-dark: #20272E;
+    --clr-ligher-dark: #30373E;
+
+    background-color: var(--clr-dark);
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    background-color: var(--clr-ligher-dark);
+    padding-block: 1rem;
+    padding-inline: 0.5rem;
+    color: var(--clr-light);
+    border-bottom: 2px solid var(--clr-primary);
+    font-family: 'Comfortaa';
+    font-weight: 300;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--clr-ligher-dark);
+    border-radius: 100vh;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 100vh;
+    background-color: var(--clr-primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--clr-light);
+}
