@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import i18next from "./translation/i18next";
 
 import Navbar from "./components/navbar/Navbar"
@@ -11,12 +11,13 @@ import ReactLoading from 'react-loading';
 import './app.css'
 import { ToastContainer } from 'react-toastify';
 import ScrollToTop from './helperFunctions/ScrollToTop';
+import RevealFade from './components/RevealFade';
+import { use } from 'i18next';
 
 
 function App() {
 
   let [loading, setLoading] = useState(true);
-
 
   useEffect(() => {
     const prefLng = localStorage.getItem("prefLng")
@@ -26,11 +27,24 @@ function App() {
     setLoading(false)
   }, [])
 
+
+  document.addEventListener('scroll', function () {
+    var header = document.querySelector('.my-header');
+
+    if (header && window.scrollY !== 0) {
+      header.style.backgroundColor = '#244E3E';
+    } else {
+      header.style.backgroundColor = '#011a11';
+    }
+  });
+
+
+
   if (loading) {
     return (
       <>
         <div className='center-items'>
-          <ReactLoading type={"bubbles"} color={"#00c6b4"} height={'50%'} width={'50%'} />
+          <ReactLoading type={"bubbles"} color={"#d3bb7b"} height={'50%'} width={'50%'} />
         </div>
       </>
     )
@@ -39,9 +53,12 @@ function App() {
   return (
     <>
       <ToastContainer />
-
-      <main>
-        <Navbar />
+      <main className='relative'>
+        <div className='sticky top-0 z-50 my-header'>
+          <RevealFade>
+            <Navbar />
+          </RevealFade>
+        </div>
         <h2></h2>
         <Routes>
           <Route path="/" element={<HomePage />} />

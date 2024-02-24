@@ -37,10 +37,9 @@ function Navbar() {
   }
 
   return (
-    <>
       <nav className="navbar">
         <div className="navbar-container">
-            <NavLink to="/" className='navbar-logo' onClick={handleCloseMobileMenu}>SHG</NavLink>
+          <NavLink to="/" className='navbar-logo' onClick={handleCloseMobileMenu}>SHG</NavLink>
           <div className="menu-icon" onClick={handleMenuIconClick}>
             <span className="material-icons-outlined">{menuIconClick ? 'close' : 'menu'}</span>
           </div>
@@ -50,6 +49,7 @@ function Navbar() {
             <CustomNavLink customLinkTo="/my-cv" name={t('navbar.my-cv')} customOnClick={handleCloseMobileMenu} />
             {/* <CustomNavLink customLinkTo="/planio" name={t('navbar.planio')} customOnClick={handleCloseMobileMenu} /> */}
             <CustomNavLink customLinkTo="https://play.google.com/store/apps/details?id=com.planiobeta" name={t('navbar.planio')} customOnClick={handleCloseMobileMenu} />
+            <CustomNavLink customLinkTo="https://cookiecare.io/" name={t('navbar.cookiecare')} customOnClick={handleCloseMobileMenu} />
           </ul>
 
           <ul className=' flex gap-6 country-flag-container'>
@@ -64,8 +64,6 @@ function Navbar() {
           </ul>
         </div>
       </nav>
-
-    </>
   )
 }
 

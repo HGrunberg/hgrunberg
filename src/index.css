@@ -5,12 +5,21 @@
 @tailwind utilities;
 
 :root {
-    --clr-primary: #3BAB87;
+    --clr-primary: #d3bb7b;
     --clr-light: #F2F2F2;
-    --clr-dark: #20272E;
-    --clr-ligher-dark: #30373E;
+    --clr-dark: #011a11;
+    --clr-ligher-dark: #244E3E;
 
     background-color: var(--clr-dark);
+
+    --toastify-color-success: var(--clr-primary) !important;
+    --toastify-icon-color-success: var(--clr-primary) !important;
+
+
+}
+
+.my-header {
+    transition: all 0.5s ease-in-out;
 }
 
 input[type=text],

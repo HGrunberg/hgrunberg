@@ -1,24 +1,33 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { useTranslation } from "react-i18next";
-import AboutMe from "../sections/AboutMe";
-import WhyMe from "../sections/WhyMe";
-import { MuiContactForm } from "../sections/MuiContactForm";
-import HeroSection from "../sections/HeroSection";
+import AboutMe from "../homeSections/AboutMe";
+import WhyMe from "../homeSections/WhyMe";
+import { MuiContactForm } from "../homeSections/MuiContactForm";
+import HeroSection from "../homeSections/HeroSection";
+import Projects from "../components/Projects";
+
 
 export default function HomePage() {
 
     const { t } = useTranslation()
 
     return (
-        <section className="page">
-            <HeroSection />
-            
-            <AboutMe />
+        <>
 
-            <WhyMe />
+            <section className="page" id="homePageId">
+                <HeroSection />
 
-            <MuiContactForm />
+                <AboutMe />
+                
+                <Projects />
 
-        </section>
+                <WhyMe />
+
+                <MuiContactForm />
+            </section>
+
+
+
+        </>
     );
 }

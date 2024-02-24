@@ -4,35 +4,39 @@
     "navbar": {
         "home": "Home",
         "planio": "Planio",
-        "my-cv": "My CV"
+        "my-cv": "My CV",
+        "cookiecare": "Cookiecare.io"
     },
     "heroSection": {
         "intro-text": "Hello, my name is Sebastian, and I'm",
         "title": "Your new employee",
         "planioExplainer": "Planio is my own project",
-        "intro-text-explainer": "With my smile, high spirits, bad humor and good collaboration skills comes the ability to be a quick learner and always arrive on time. I love praise and constructive criticism, why I am not afraid of asking people for help.",
+        "intro-text-explainer": "With my smile and high spirit follows my ability to be a quick learner and high collaboration skills. I appreciate feedback and are not afraid of asking for help when needed... And of cause I always arive on time.",
         "whyMeButton": "Why me?",
         "contactButton": "Contact me"
     },
     "aboutMeSection": {
-        "title": "The 22 year old guy",
-        "sub-title": "Frontend, video, design, SoMe & humor",
-        "info": "I am a smiling, 22 year old guy, who are born in Randers but moved to Odder. I am living in a terrace house with my girlfriend, and love to be with my family, run and work on Planio. After 10th class and STX I was accepted, and currently only have one year left of Multimedia Design education in Viby."},
+        "title": "A 22-year old Multimedia Design-student with a high potential",
+        "sub-title": "Frontend, UX/UI, design, SoMe & humor",
+        "info": "I am a smiling, 22-year old student, who is born and raised in Randers and now live in Odder with my girlfriend Nikoline. I spend my free time with family, running and work on my personal project Planio, which is an app for daily planning. I am currently studying Multimedia Design in Viby and have a year left."
+    },
+    "testimonialsSection": {
+        "title": "What does people say about me?",
+
+        "netto": {
+            "title": "Christian, Netto",
+            "testimonial": "Sebastian always arrives happy and smiling on work. He always takes any tasks positively, furthermore they are completed with quality. Sebastian is loved by his colleagues, Sebastian is flexible and are always ready to help, e.g. on holidays or colleagues being sick. My warmest recommendation shall Sebastian take with him. Sebastian will always be welcome to come back to Netto, if wanted by him."
+        }
+    },
     "whyMeSection": {
-        "title": "Why me?",
-        "info": "Long texts can be boring and timeconsuming, so here is a lovely overview of my qualities, which will be usefull for your company - no problem",
+        "title": "My top-10 personal skills",
+        "info": "Long texts can be boring, so I have summarised my most important qualities and personal skills here.",
         "motivated": "Motivated",
-        "motivatedDetail": "You can rest assured that I will be motivated to work for you.",
-        "digitalMindset": "Digital mindset",
-        "digitalMindsetDetail": "I love the digital, and its possibilities - both in the personal and professional aspect.",
+        "motivatedDetail": "I am always motivated in my work.",
         "goalOriented": "Goal oriented",
         "goalOrientedDetail": "I don't give up and will work wholeheartedly to make it work - no matter how many times it may fail.",
         "drive": "Drive",
         "driveDetail": "I love you challenges and have the will to change for the better.",
-        "lovedByColleagues": "Loved by colleagues",
-        "lovedByColleaguesDetail": "My colleagues are happy for me - you'll be too.",
-        "smiling": "Smiling",
-        "smilingDetail": "You come a long way with a smile and high spirits.",
         "bigPotential": "Big potential",
         "bigPotentialDetail": "I can't do everything from the beginning, but with good, visual, training and the possibility to ask for help, I have a big potential.",
         "goodCollaborationSkils": "Good collaboration skills",
@@ -40,18 +44,16 @@
         "independent": "Independent",
         "independentDetail": "I can work alone - if I can ask for help when I need it.",
         "responsibleAndQualityConscious": "Responsible- and quality conscious",
-        "responsibleAndQualityConsciousDetail": "I always do my best - and thrive to create quality under responsibility.",
+        "responsibleAndQualityConsciousDetail": "I always do my best - and thrive to create quality under realistic responsibility.",
         "takePartInSocialActivies": "Taking part in social activities",
         "takePartInSocialActiviesDetail": "I am no party-ape, but I love the company of others.",
         "quickLearner": "Quick learner",
-        "quickLearnerDetail": "Few things are easy, and I don't give up before I have learned it. Often there is not much needed.",
-        "lovePraiseAndCriticism": "Love praise and constructive criticism",
-        "lovePraiseAndCriticismDetail": "I learn and evolve the most when I get praise and especially constructive criticism.",
-        "loveRoutines": "Love routines",
-        "loveRoutinesDetail": "If you have fixed routines, it is a plus, but changes are no problem either."
+        "quickLearnerDetail": "Few things are easy but I refuse to give up before I have learned it. Often there is not much needed.",
+        "lovePraiseAndCriticism": "Love feedback with constructive criticism",
+        "lovePraiseAndCriticismDetail": "I learn and evolve the most when I get praise and especially constructive criticism."
     },
     "contactForm": {
-        "title": "Contact me before your competitor",
+        "title": "Contact me",
         "email": "Email",
         "showEmail": "Show email",
         "hideEmail": "Hide email",
@@ -84,6 +86,20 @@
         "ITExperienceTitle": "IT qualities",
 
         "education": {
+
+            "internship": "Work --> Internship, Brand by Hand, Aarhus (current)",
+            "internshipYear": "2023 - xx",
+            "internshipInfo": "Before I started on the internship, Brand By Hand hired me as a junior developer. My main tasks are web development in Wordpress and Elementor Pro. I have also gotten a few design tasks.",
+            "internshipSkills": {
+                "cookiecare": "Cookiecare.io webpage",
+                "elementor": "Elementor",
+                "wordpress": "Wordpress",
+                "design": "Design",
+                "debugging": "Debugging code errors",
+                "php": "A few PHP tasks"
+            },
+
+
             "multimediadesign": "Multimediedesign, EAAA, Viby (current)",
             "multimediadesignYear": "2022 - 2024",
             "multimediadesignInfo": "Further education, where I in 3. semester have chosen Frontend development. On the school we have been taught programming, design and UX-content.",
@@ -105,11 +121,24 @@
             "stxInfo": "Socialstudies A, Math A, Media studies (movies) C",
             "10th": "Hald Ege Efterskole, 10th class, Viborg",
             "10thYear": "2017 - 2018",
-            "10thInfo": "Moves as elective"
+            "10thInfo": "Movies as elective"
         },
         "workExperince": {
+            "LiebeNordic": "Liebe Nordic / Skattespecialisten (current)",
+            "LiebeNordicYear": "2023 - xx",
+            "LiebeNordicInfo": "I have been given responsibility from the start. I work with E-mail marketing and adaptation together with improvement of the webpages. It is a relatively new company, and I will get even more practice in self-learning and problem solving. All work is mostly in Shopify with custom HTML and CSS adaptations.",
+            "LiebeNordicSkills": {
+                "shopify": "Shopify",
+                "klaviyo": "Klaviyo",
+                "htmlcss": "HTML & CSS",
+                "canva": "Canva",
+                "design": "Design",
+                "email-marketing": "E-mail marketing",
+                "improvements": "Upgrades on webpages"
+            },
+
             "annes": "Anne's Frokost & Sandwich, Odder (current)",
-            "annesYear": "2022",
+            "annesYear": "2022 - xx",
             "annesInfo": "In Anne's there has been focus on customer contact and leaving the customers with a smile. I could prove again, that with the right, visual training can turn disadvantages in terms of cooking to strengths. It has also improved my social skills.",
             "nettoNewest": "Netto, 1. assistant, Aarhusvej, Randers",
             "nettoNewestYear": "2019 - 2022",

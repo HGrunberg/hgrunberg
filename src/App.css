@@ -13,3 +13,20 @@
   text-align: center;
   min-height: 100vh;
 }
+
+.customBorder {
+  border: 2px solid var(--clr-ligher-dark);
+}
+
+.customBorder::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 35px;
+  height: 20px;
+  background-color: var(--clr-dark);
+  border-bottom: 2px solid var(--clr-ligher-dark);
+  transform-origin: 0px center;
+  transform: rotate(45deg) translate(0px, -120%);
+}

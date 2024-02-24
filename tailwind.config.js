@@ -9,10 +9,10 @@ export default {
       Comfortaa: ['Comfortaa', 'cursive', 'sans-serif']
     },
     colors: {
-      primary: '#3BAB87',
+      primary: '#d3bb7b',
       light: '#F2F2F2',
-      dark: '#20272E',
-      lighterDark: '#30373E',
+      dark: '#011a11',
+      lighterDark: '#153A36',
     },
     extend: {
       height: {

@@ -4,36 +4,39 @@
     "navbar": {
         "home": "Hjem",
         "planio": "Planio",
-        "my-cv": "Mit CV"
+        "my-cv": "Mit CV",
+        "cookiecare": "Cookiecare.io"
     },
     "heroSection": {
         "intro-text": "Hej, mit navn er Sebastian, og jeg er",
         "title": "Din nye kollega",
         "planioExplainer": "Planio er mit hjertebarn",
-        "intro-text-explainer": "Med mit smil, høje humør, dårlige humor og gode samarbejdsevner kommer evnen til at være lærenem og utrolig mødestabil. Jeg elsker ros og konstruktiv kritik, hvorfor jeg heller ikke er bange for at spørge andre om hjælp.",
+        "intro-text-explainer": "Med et smil og højt humør følger evnen til at være lærenem og have gode samarbejdsevner. Jeg sætter pris på feedback og er ikke bange for at spørge om hjælp når det er nødvendigt... Og ikke midst er jeg ekstremt mødestabil.",
         "whyMeButton": "Hvorfor mig?",
         "contactButton": "Kontakt mig"
     },
     "aboutMeSection": {
-        "title": "Den 22 årige fyr",
-        "sub-title": "Frontend, video, design, SoMe & humor",
-        "info": "Jeg er en smilende, 22 årige fyr, der er født i Randers men er flyttet til Odder. Jeg bor i rækkehus med kæresten, og elsker at være sammen med familien, løbe og arbejde på Planio. Efter efterskolen og STX blev jeg optaget, og har nu under et år tilbage af Multimediedesigneruddannelsen i Viby."
+        "title": "En 22-årig multimediedesign-studerende med stort potentiale",
+        "sub-title": "Frontend, UX/UI, design, SoMe & humor",
+        "info": "Jeg er en smilende, 22-årige studerende, der er født og opvokset i Randers og nu bor i Odder, hvor jeg bor i rækkehus med min kæreste Nikoline. I min fritid holder jeg af at være sammen med familie, løbe ture samt at arbejde på mit projekt Planio, som er et værktøj til dagsplanlægning. Jeg læser p.t. på multimediedesignuddannelsen i Viby og har under et år tilbage af uddannelsen."
+    },
+    "testimonialsSection": {
+        "title": "Hvad siger andre om mig?",
+
+        "netto": {
+            "title": "Christian, Netto",
+            "testimonial": "Sebastian møder altid smilende og glad på arbejde, som tager positivt imod enhver opgave, ydermere bliver opgaverne udført på et højt niveau. Sebastian er vellidt blandt sinekollegaer, Sebastian er flexibel og give gerne en hånd med i forbindelse med sygdom, ferie og helligdage. Mine varmeste anbefaling skal Sebastian få med sig, Sebastian vil altid være velkommen i Netto igen, hvis dette måtte være ønsket."
+        }
     },
     "whyMeSection": {
-        "title": "Hvorfor mig?",
-        "info": "Lange tekster kan være kedelige og tidskrævende, så her er et lækkert overblik over mine egenskaber, som er brugbart for din virksomhed - det var så lidt",
+        "title": "Mine top-10 personlige evner",
+        "info": "Lange tekster kan være kedelige, så jeg har opsummeret mine vigtigste egenskaber og personlige kompetencer herunder.",
         "motivated": "Motiveret",
-        "motivatedDetail": "I kan være sikre på, at jeg er motiveret for at arbejde for jer.",
-        "digitalMindset": "Digitalt mindset",
-        "digitalMindsetDetail": "Jeg elsker det digitale, og dets muligheder - både i det personlige og professionelle aspekt.",
+        "motivatedDetail": "Jeg er altid motiveret i mit arbejde.",
         "goalOriented": "Målrettet",
         "goalOrientedDetail": "Jeg giver ikke op, og vil arbejde målrettet for at det lykkedes - uanset hvor mange gange det måske fejler.",
         "drive": "Gåpåmod",
         "driveDetail": "Jeg er klar på nye udfordringer, og har lysten til at udvikle mig.",
-        "lovedByColleagues": "Vellidt blandt kollegaer",
-        "lovedByColleaguesDetail": "Mine kollegaer er glade for mig - det bliver I også.",
-        "smiling": "Smilende",
-        "smilingDetail": "Man kommer langt med et smil og godt humør.",
         "bigPotential": "Stort potentiale",
         "bigPotentialDetail": "Jeg kan ikke det hele fra starten, men med god, visuel, oplæring og mulighed for at spørge om hjælp, har jeg stort potentiale.",
         "goodCollaborationSkils": "Gode samarbejdsevner",
@@ -41,18 +44,16 @@
         "independent": "Selvstændig",
         "independentDetail": "Jeg kan arbejde alene - så længe jeg kan spørge folk til råds, når jeg bliver i tvivl.",
         "responsibleAndQualityConscious": "Ansvars- og kvalitetsbevidst",
-        "responsibleAndQualityConsciousDetail": "Jeg gør altid mit bedste - og trives med at skabe kvalitet under ansvar.",
+        "responsibleAndQualityConsciousDetail": "Jeg gør altid mit bedste - og trives med at skabe kvalitet under realistisk ansvar.",
         "takePartInSocialActivies": "Vil bidrage og deltage socialt",
         "takePartInSocialActiviesDetail": "Jeg er ikke en festabe, men nyder at være i selskab med andre.",
         "quickLearner": "Lærenem",
-        "quickLearnerDetail": "Få ting er nemme, og jeg giver ikke op før jeg har lært det. Ofte skal der ikke meget til.",
-        "lovePraiseAndCriticism": "Elsker ros og især konstruktiv kritik",
-        "lovePraiseAndCriticismDetail": "Jeg lærer og udvikler mig mest, når jeg får ros og især konstruktiv kritik.",
-        "loveRoutines": "Rutinepræget",
-        "loveRoutinesDetail": "Har I faste rutiner, er det kun en fordel, men ændringer kan også håndteres."
+        "quickLearnerDetail": "Få ting er nemme men jeg giver ikke op før jeg har lært det. Ofte skal der ikke meget til.",
+        "lovePraiseAndCriticism": "Elsker feedback med konstruktiv kritik",
+        "lovePraiseAndCriticismDetail": "Jeg lærer og udvikler mig mest, når jeg får ros og især konstruktiv kritik."
     },
     "contactForm": {
-        "title": "Kontakt mig før din konkurrent",
+        "title": "Kontakt mig",
         "email": "Email",
         "showEmail": "Vis email",
         "hideEmail": "Skjul email",
@@ -84,7 +85,19 @@
         "workExperinceTitle": "Arbejdserfaring",
         "ITExperienceTitle": "It-kompetencer",
 
+
         "education": {
+            "internship": "Arbejde --> Praktik, Brand by Hand, Aarhus (nuværende)",
+            "internshipYear": "2023 - xx",
+            "internshipInfo": "Før jeg startede i praktik, ansatte Brand by Hand mig som Junior udvikler. Mine primære opgaver er webudvikling i Wordpress og Elementor Pro. Derudover har der været enkelte design opgaver.",
+            "internshipSkills": {
+                "cookiecare": "Cookiecare.io hjemmeside",
+                "elementor": "Elementor",
+                "wordpress": "Wordpress",
+                "design": "Design",
+                "debugging": "Fejlfinding ved kodefejl",
+                "php": "Enkelte PHP-opgaver"
+            },
             "multimediadesign": "Multimediedesign, EAAA, Viby (nuværende)",
             "multimediadesignYear": "2022 - 2024",
             "multimediadesignInfo": "Videregående uddannelse, hvor jeg i 3. semester har valgt speciale i Frontend udvikling. På uddannelsen har vi haft undervisning i programmering, design og UX-content.",
@@ -109,8 +122,21 @@
             "10thInfo": "Film som valgfag"
         },
         "workExperince": {
+            "LiebeNordic": "Liebe Nordic / Skattespecialisten (nuværende)",
+            "LiebeNordicYear": "2023 - xx",
+            "LiebeNordicInfo": "Jeg fået ansvar fra start. Her er jeg med til at stå for vores E-mail marketing og tilpasning samt forbedring af hjemmesiden. Eftersom det er en nyere virksomhed med få ansatte, bliver jeg i den grad øvet i selvlæring og problemhåndtering. Al arbejder har mest været i Shopify med egne HTML og CSS ændringer.",
+            "LiebeNordicSkills": {
+                "shopify": "Shopify",
+                "klaviyo": "Klaviyo",
+                "htmlcss": "HTML & CSS",
+                "canva": "Canva",
+                "design": "Design",
+                "email-marketing": "E-mail marketing",
+                "improvements": "Forbedringer på hjemmesiden"
+            },
+
             "annes": "Anne's Frokost & Sandwich, Odder (nuværende)",
-            "annesYear": "2022",
+            "annesYear": "2022 - xx",
             "annesInfo": "I Anne's har der været fokus på kundekontakt og at efterlade kunderne med smil. Igen har jeg kunne bevise, at med den rette oplæring har jeg kunne vende svagheder i form af madlavning til styrker. Desuden har det kun styrket mine sociale evner.",
             "nettoNewest": "Netto, 1. assistent, Aarhusvej, Randers",
             "nettoNewestYear": "2019 - 2022",
@@ -142,7 +168,7 @@
                 "adobeXD": "Adobe XD",
                 "Tailwind": "Senere Tailwind (web-version)"
             },
-            "reactViteTailwind": "React, Vite & Tailwind",
+            "reactViteTailwind": "React Vite & Tailwind",
             "reactViteTailwindUser": "Ny bruger",
             "reactViteTailwindInfo": "Min portfolio er lavet med React, Vite og delvist Tailwind. Det samme bliver Planio Web-version.",
             "adobeXDFigma": "Adobe XD & Figma",
