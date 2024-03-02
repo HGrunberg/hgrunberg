@@ -17,7 +17,7 @@ function HeroSection() {
     return (
         <>
             <RevealFade>
-                <div className=" my-10 mx-auto w-4/5 text-light">
+                <div className=" my-10 mx-auto w-4/5 max-w-7xl text-light">
                     <div className='md:hidden'>
                         <p className="text-center text-xs font-Comfortaa font-thin mb-1">{t('heroSection.intro-text')}</p>
                         <h1 className=" text-center text-4xl font-Comfortaa font-bold text-primary mb-2">{t('heroSection.title')} {`:}`}</h1>
@@ -26,7 +26,7 @@ function HeroSection() {
                         <div>
                             <div className='hidden md:block'>
                                 <p className="text-center text-xs 2xl:text-lg font-Comfortaa font-thin mb-1">{t('heroSection.intro-text')}</p>
-                                <h1 className=" text-center text-4xl 2xl:text-6xl font-Comfortaa font-bold text-primary mb-2">{t('heroSection.title')} {`:}`}</h1>
+                                <h1 className=" text-center text-4xl 2xl:text-5xl font-Comfortaa font-bold text-primary mb-2">{t('heroSection.title')} {`:}`}</h1>
                             </div>
                             <div className=''>
                                 <CustomP className='2xl:text-xl'>{t('heroSection.intro-text-explainer')}</CustomP>
@@ -57,9 +57,9 @@ function HeroSection() {
                             </div>
                         </div>
 
-                        <div className=" mb-5 order-first md:order-none">
+                        <div className="mb-5 w-6/12 mx-auto md:mr-0 md:ml-auto order-first md:order-none">
                             <CustomP className='hidden md:block'>{t('heroSection.planioExplainer')}</CustomP>
-                            <video className="w-6/12 object-cover mx-auto shadow-md shadow-primary" src="planio-hero-video.mp4" type="video/mp4" autoPlay loop muted />
+                            <video className="object-cover mx-auto shadow-md shadow-primary" src="planio-hero-video.mp4" type="video/mp4" autoPlay loop muted />
                         </div>
                     </div>
                 </div>

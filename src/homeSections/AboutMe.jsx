@@ -13,9 +13,9 @@ function AboutMe() {
 
 
     return (
-        <div className=" xl:h-screen-75 rounded-2xl my-10 mx-auto w-4/5 text-light bg-lighterDark p-4 shadow-lg shadow-primary lg:grid grid-cols-2 lg:items-center">
+        <div className="lg:py-20 px-12 rounded-2xl gap-4 my-10 mx-auto w-4/5 max-w-7xl text-light bg-lighterDark p-4 shadow-lg shadow-primary lg:grid grid-cols-2 lg:items-center">
             <Reveal>
-                <img className=" w-8/12 object-cover my-4 mx-auto shadow-md shadow-primary" src="/about-me-img.jpg" alt="Image of Planio" />
+                <img className="object-cover my-4 mx-auto shadow-md shadow-primary" src="/about-me-img.jpg" alt="Image of Planio" />
             </Reveal>
             <div className='flex flex-col gap-6'>
                 <div>

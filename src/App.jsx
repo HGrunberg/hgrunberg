@@ -13,11 +13,13 @@ import { ToastContainer } from 'react-toastify';
 import ScrollToTop from './helperFunctions/ScrollToTop';
 import RevealFade from './components/RevealFade';
 import { use } from 'i18next';
+import { useTranslation } from 'react-i18next';
 
 
 function App() {
 
   let [loading, setLoading] = useState(true);
+  const { t } = useTranslation()
 
   useEffect(() => {
     const prefLng = localStorage.getItem("prefLng")
@@ -38,6 +40,19 @@ function App() {
     }
   });
 
+  const [isBlurred, setIsBlurred] = useState(false);
+
+  useEffect(() => {
+    const handleVisibilityChange = () => setIsBlurred(document.hidden);
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+
+    return () => document.removeEventListener('visibilitychange', handleVisibilityChange);
+  }, []);
+
+  useEffect(() => {
+    document.title = isBlurred ? t('onPageBlur') : 'Holm Grünberg';
+  }, [isBlurred]);
 
 
   if (loading) {

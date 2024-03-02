@@ -19,8 +19,7 @@ function CVPage() {
     <>
 
       <div className='text-light text-center'>
-
-        <div className='text-light w-10/12 xl:w-8/12 mx-auto'>
+        <div className='text-light w-4/5 max-w-7xl mx-auto'>
           <RevealFade>
             <h1 className=" text-center text-4xl mt-10 font-Comfortaa font-bold text-primary mb-2">{t('CVPage.title')} {`:}`}</h1>
             <CustomP className="my-6 w-full max-w-prose mx-auto">{t('CVPage.aboutMe')}</CustomP>
@@ -80,6 +79,7 @@ function CVPage() {
                     info={t('CVPage.education.multimediadesignInfo')}
                     mySkills={[
                       t('CVPage.education.multimediadesignSkills.react'),
+                      t('CVPage.education.multimediadesignSkills.tailwind'),
                       t('CVPage.education.multimediadesignSkills.API'),
                       t('CVPage.education.multimediadesignSkills.some'),
                       t('CVPage.education.multimediadesignSkills.tdc'),

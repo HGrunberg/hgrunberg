@@ -1,5 +1,6 @@
 {
     "lngUpdated": "Language updated",
+    "onPageBlur": "Come back :{",
     "hoverSkills": "Hold your cursor over or click on the qualities",
     "navbar": {
         "home": "Home",
@@ -19,6 +20,21 @@
         "title": "A 22-year old Multimedia Design-student with a high potential",
         "sub-title": "Frontend, UX/UI, design, SoMe & humor",
         "info": "I am a smiling, 22-year old student, who is born and raised in Randers and now live in Odder with my girlfriend Nikoline. I spend my free time with family, running and work on my personal project Planio, which is an app for daily planning. I am currently studying Multimedia Design in Viby and have a year left."
+    },
+    "projectsSection": {
+        "password": "Password",
+        "planioProject": {
+            "title": "Planio",
+            "description": "Planio shows my skills and ability to stand behind my work"
+        },
+        "cookiecareProject": {
+            "title": "Cookiecare.io",
+            "description": "Made with Elementor under my internship at Brand by Hand"
+        },
+        "annesProject": {
+            "title": "Annes Frokost",
+            "description": "Exam 2023 with Christoffer."
+        }
     },
     "testimonialsSection": {
         "title": "What does people say about me?",
@@ -105,6 +121,7 @@
             "multimediadesignInfo": "Further education, where I in 3. semester have chosen Frontend development. On the school we have been taught programming, design and UX-content.",
             "multimediadesignSkills": {
                 "react": "React, comprising HTML, CSS & JS",
+                "tailwind": "Tailwind",
                 "API": "Api's",
                 "some": "SoMe",
                 "tdc": "Target group description",
@@ -126,7 +143,7 @@
         "workExperince": {
             "LiebeNordic": "Liebe Nordic / Skattespecialisten (current)",
             "LiebeNordicYear": "2023 - xx",
-            "LiebeNordicInfo": "I have been given responsibility from the start. I work with E-mail marketing and adaptation together with improvement of the webpages. It is a relatively new company, and I will get even more practice in self-learning and problem solving. All work is mostly in Shopify with custom HTML and CSS adaptations.",
+            "LiebeNordicInfo": "I have been given responsibility from the start. I work with E-mail marketing and adaptation together with improvement of the webpages. Since I have not worked in this area before, I get even more practice in self-learning and problem solving. All work is mostly in Shopify with custom HTML and CSS adaptations.",
             "LiebeNordicSkills": {
                 "shopify": "Shopify",
                 "klaviyo": "Klaviyo",
@@ -172,7 +189,7 @@
             },
             "reactViteTailwind": "React, Vite & Tailwind",
             "reactViteTailwindUser": "New user",
-            "reactViteTailwindInfo": "My portfolio is created with React, Vite and partly Tailwind. The same goes with Planio Web-version.",
+            "reactViteTailwindInfo": "My portfolio is created with React, Vite and Tailwind. The same goes with Planio Web-version.",
             "adobeXDFigma": "Adobe XD & Figma",
             "adobeXDFigmaUser": "Daily user",
             "adobeXDFigmaInfo": "I have used Adobe XD or Figma for my projects in the free time and the projects in the school.",

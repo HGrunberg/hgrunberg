@@ -1,5 +1,6 @@
 {
     "lngUpdated": "Sprog opdateret",
+    "onPageBlur": "Kom tilbage :{",
     "hoverSkills": "Hold musen over eller tryk på egenskaberne",
     "navbar": {
         "home": "Hjem",
@@ -19,6 +20,21 @@
         "title": "En 22-årig multimediedesign-studerende med stort potentiale",
         "sub-title": "Frontend, UX/UI, design, SoMe & humor",
         "info": "Jeg er en smilende, 22-årige studerende, der er født og opvokset i Randers og nu bor i Odder, hvor jeg bor i rækkehus med min kæreste Nikoline. I min fritid holder jeg af at være sammen med familie, løbe ture samt at arbejde på mit projekt Planio, som er et værktøj til dagsplanlægning. Jeg læser p.t. på multimediedesignuddannelsen i Viby og har under et år tilbage af uddannelsen."
+    },
+    "projectsSection": {
+        "password": "Kode",
+        "planioProject": {
+            "title": "Planio",
+            "description": "Planio viser mine kompetencer og evne til at stå inde for mit arbejde"
+        },
+        "cookiecareProject": {
+            "title": "Cookiecare.io",
+            "description": "Hjemmesiden er lavet i Elementor under min praktik hos Brand by Hand"
+        },
+        "annesProject": {
+            "title": "Annes Frokost",
+            "description": "Eksamen 2023 sammen med Christoffer."
+        }
     },
     "testimonialsSection": {
         "title": "Hvad siger andre om mig?",
@@ -103,6 +119,7 @@
             "multimediadesignInfo": "Videregående uddannelse, hvor jeg i 3. semester har valgt speciale i Frontend udvikling. På uddannelsen har vi haft undervisning i programmering, design og UX-content.",
             "multimediadesignSkills": {
                 "react": "React, herunder HTML, CSS & JS",
+                "tailwind": "Tailwind",
                 "API": "Api'er",
                 "some": "SoMe",
                 "tdc": "Målgruppebeskrivelse",
@@ -124,7 +141,7 @@
         "workExperince": {
             "LiebeNordic": "Liebe Nordic / Skattespecialisten (nuværende)",
             "LiebeNordicYear": "2023 - xx",
-            "LiebeNordicInfo": "Jeg fået ansvar fra start. Her er jeg med til at stå for vores E-mail marketing og tilpasning samt forbedring af hjemmesiden. Eftersom det er en nyere virksomhed med få ansatte, bliver jeg i den grad øvet i selvlæring og problemhåndtering. Al arbejder har mest været i Shopify med egne HTML og CSS ændringer.",
+            "LiebeNordicInfo": "Jeg fået ansvar fra start. Her er jeg med til at stå for vores E-mail marketing og tilpasning samt forbedring af hjemmesiderne. Eftersom jeg ikke har prøvet det før, bliver jeg i den grad øvet i selvlæring og problemhåndtering. Al arbejder har mest været i Shopify med egne HTML og CSS ændringer.",
             "LiebeNordicSkills": {
                 "shopify": "Shopify",
                 "klaviyo": "Klaviyo",
@@ -132,7 +149,7 @@
                 "canva": "Canva",
                 "design": "Design",
                 "email-marketing": "E-mail marketing",
-                "improvements": "Forbedringer på hjemmesiden"
+                "improvements": "Forbedringer på hjemmesiderne"
             },
 
             "annes": "Anne's Frokost & Sandwich, Odder (nuværende)",
@@ -170,7 +187,7 @@
             },
             "reactViteTailwind": "React Vite & Tailwind",
             "reactViteTailwindUser": "Ny bruger",
-            "reactViteTailwindInfo": "Min portfolio er lavet med React, Vite og delvist Tailwind. Det samme bliver Planio Web-version.",
+            "reactViteTailwindInfo": "Min portfolio er lavet med React, Vite og Tailwind. Det samme bliver Planio Web-version.",
             "adobeXDFigma": "Adobe XD & Figma",
             "adobeXDFigmaUser": "Daglig bruger",
             "adobeXDFigmaInfo": "Jeg har brugt Adobe XD eller Figma til mine projekter i fritiden og projekterne på uddannelsen.",

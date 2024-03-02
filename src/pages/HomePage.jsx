@@ -19,6 +19,7 @@ export default function HomePage() {
 
                 <AboutMe />
                 
+                {/* made with hover.dev */}
                 <Projects />
 
                 <WhyMe />

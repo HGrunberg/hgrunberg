@@ -109,7 +109,7 @@ export const MuiContactForm = () => {
 
     return (
         <>
-            <div id="ContactMeId" className=" mt-4 mb-28 mx-auto w-9/12 max-w-4xl text-light">
+            <div id="ContactMeId" className=" mt-4 mb-28 mx-auto w-4/5 max-w-7xl text-light">
                 <Reveal>
                     <div className="mb-8">
                         <CustomH2 className='2xl:text-4xl'>{t('contactForm.title')} {`:}`}</CustomH2>

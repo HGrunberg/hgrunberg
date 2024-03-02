@@ -30,3 +30,21 @@
   transform-origin: 0px center;
   transform: rotate(45deg) translate(0px, -120%);
 }
+
+.customBorderPrimary {
+  border: 2px solid var(--clr-primary);
+}
+
+.customBorderPrimary::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 35px;
+  height: 20px;
+  background-color: var(--clr-primary);
+  border-bottom: 2px solid var(--clr-primary);
+  z-index: 10;
+  transform-origin: 0px center;
+  transform: rotate(45deg) translate(0px, -120%);
+}

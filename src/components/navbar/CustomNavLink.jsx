@@ -8,7 +8,7 @@ function CustomNavLink({ customLinkTo, name, customOnClick }) {
         <li className='nav-item'>
             <NavLink style={({ isActive }) => {
                 return {
-                    borderBottom: isActive ? "8px solid #d3bb7b" : undefined,
+                    borderBottom: isActive ? "4px solid #d3bb7b" : undefined,
                 };
             }} to={customLinkTo} target={name === "Planio" ? '_blank' : name === "Cookiecare.io" ? "_blank" : undefined} className='nav-links' onClick={customOnClick}>
                 {name}

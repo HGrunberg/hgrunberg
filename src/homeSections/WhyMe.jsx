@@ -55,7 +55,7 @@ function WhyMe() {
 
     return (
 
-        <div id='WhyMeId' className=" my-10 mx-auto w-4/5 text-light">
+        <div id='WhyMeId' className=" my-10 mx-auto w-4/5 max-w-7xl text-light">
             <Reveal>
                 <CustomH2 className='2xl:text-4xl'>{t('whyMeSection.title')}</CustomH2>
                 <CustomP className=' max-w-lg mx-auto 2xl:text-lg' weight="font-light" >{t('whyMeSection.info')}</CustomP>
@@ -65,7 +65,7 @@ function WhyMe() {
                 contentClassName="auto-content"
                 contentRef={contentDiv}
             >
-                <div className='xl:grid xl:grid-cols-2 xl:gap-5 py-8'>
+                <div className='xl:grid xl:grid-cols-2 xl:gap-x-4 xl:gap-y-0 py-8'>
                     <CustomProgressBar procent={100} detail={t('whyMeSection.motivatedDetail')}>{t('whyMeSection.motivated')}</CustomProgressBar>
                     <CustomProgressBar procent={100} detail={t('whyMeSection.goalOrientedDetail')}>{t('whyMeSection.goalOriented')}</CustomProgressBar>
                     <CustomProgressBar procent={90} detail={t('whyMeSection.driveDetail')}>{t('whyMeSection.drive')}</CustomProgressBar>
