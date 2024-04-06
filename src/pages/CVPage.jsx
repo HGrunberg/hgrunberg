@@ -17,15 +17,14 @@ function CVPage() {
 
   return (
     <>
-
-      <div className='text-light text-center'>
+      <div className='text-light text-center' id='cv-page'>
         <div className='text-light w-4/5 max-w-7xl mx-auto'>
           <RevealFade>
             <h1 className=" text-center text-4xl mt-10 font-Comfortaa font-bold text-primary mb-2">{t('CVPage.title')} {`:}`}</h1>
             <CustomP className="my-6 w-full max-w-prose mx-auto">{t('CVPage.aboutMe')}</CustomP>
           </RevealFade>
           <RevealFade>
-            <div className='flex flex-col flex-wrap items-center gap-4 my-4 '>
+            <div className='custom-no-print flex flex-col flex-wrap items-center gap-4 my-4 '>
 
               <Button variant="contained" size='large' sx={{
                 padding: '0',
@@ -53,11 +52,11 @@ function CVPage() {
             </div>
           </RevealFade>
 
-          <div className=' mt-16'>
+          <div className=' mt-16 custom-cv-items-container'>
             <div className='grid gap-6'>
               <div className='grid gap-3'>
                 <RevealFade>
-                  <CustomH2 className="md:text-left top-0">{t('CVPage.educationTitle')}</CustomH2>
+                  <CustomH2 className="text-left">{t('CVPage.educationTitle')}</CustomH2>
                   <CVItem
                     title={t('CVPage.education.internship')}
                     year={t('CVPage.education.internshipYear')}
@@ -66,12 +65,14 @@ function CVPage() {
                       t('CVPage.education.internshipSkills.cookiecare'),
                       t('CVPage.education.internshipSkills.elementor'),
                       t('CVPage.education.internshipSkills.wordpress'),
-                      t('CVPage.education.internshipSkills.debugging'),
                       t('CVPage.education.internshipSkills.design'),
+                      t('CVPage.education.internshipSkills.ai'),
+                      t('CVPage.education.internshipSkills.debugging'),
                       t('CVPage.education.internshipSkills.php'),
                     ]}
                   />
                 </RevealFade>
+
                 <RevealFade>
                   <CVItem
                     title={t('CVPage.education.multimediadesign')}
@@ -111,7 +112,7 @@ function CVPage() {
               </div>
               <div className='grid gap-3'>
                 <Reveal>
-                  <CustomH2 className="md:text-left">{t('CVPage.workExperinceTitle')}</CustomH2>
+                  <CustomH2 className="text-left">{t('CVPage.workExperinceTitle')}</CustomH2>
                 </Reveal>
                 <Reveal>
                   <CVItem
@@ -136,6 +137,7 @@ function CVPage() {
                     info={t('CVPage.workExperince.annesInfo')}
                   />
                 </Reveal>
+                <div className='print-pagebreak'></div>
                 <Reveal>
                   <CVItem
                     title={t('CVPage.workExperince.nettoNewest')}
@@ -158,9 +160,10 @@ function CVPage() {
                   />
                 </Reveal>
               </div>
+              <div className='print-pagebreak'></div>
               <div className='grid gap-3'>
                 <Reveal>
-                  <CustomH2 className="md:text-left">{t('CVPage.ITExperienceTitle')}</CustomH2>
+                  <CustomH2 className="text-left">{t('CVPage.ITExperienceTitle')}</CustomH2>
                 </Reveal>
                 <Reveal>
                   <CVItem
@@ -193,6 +196,7 @@ function CVPage() {
                     info={t('CVPage.ITExperience.reactViteTailwindInfo')}
                   />
                 </Reveal>
+                <div className='print-pagebreak'></div>
                 <Reveal>
                   <CVItem
                     title={t('CVPage.ITExperience.adobeXDFigma')}
@@ -221,7 +225,7 @@ function CVPage() {
         </div>
 
       </div >
-      <div className='mt-20'>
+      <div className='mt-20 custom-no-print'>
         <MuiContactForm />
       </div>
     </>

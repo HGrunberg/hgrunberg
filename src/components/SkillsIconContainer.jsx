@@ -10,7 +10,6 @@ function SkillsIconContainer() {
             <FaReact size={48} />
             <FaPeopleArrows size={48}/>
             <SiAdobexd size={48}/>
-            <FaInstagram size={48}/>
             <FaLaughWink size={48}/>
         </div>
     )

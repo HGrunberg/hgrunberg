@@ -37,33 +37,29 @@ function Navbar() {
   }
 
   return (
-      <nav className="navbar">
-        <div className="navbar-container">
-          <NavLink to="/" className='navbar-logo' onClick={handleCloseMobileMenu}>SHG</NavLink>
-          <div className="menu-icon" onClick={handleMenuIconClick}>
-            <span className="material-icons-outlined">{menuIconClick ? 'close' : 'menu'}</span>
-          </div>
-
-          <ul className={menuIconClick ? 'nav-menu active' : 'nav-menu'}>
-            <CustomNavLink customLinkTo="/" name={t('navbar.home')} customOnClick={handleCloseMobileMenu} />
-            <CustomNavLink customLinkTo="/my-cv" name={t('navbar.my-cv')} customOnClick={handleCloseMobileMenu} />
-            {/* <CustomNavLink customLinkTo="/planio" name={t('navbar.planio')} customOnClick={handleCloseMobileMenu} /> */}
-            <CustomNavLink customLinkTo="https://play.google.com/store/apps/details?id=com.planiobeta" name={t('navbar.planio')} customOnClick={handleCloseMobileMenu} />
-            <CustomNavLink customLinkTo="https://cookiecare.io/" name={t('navbar.cookiecare')} customOnClick={handleCloseMobileMenu} />
-          </ul>
-
-          <ul className=' flex gap-6 country-flag-container'>
-            <li>
-              <Button>
-                <ReactCountryFlag className='countryFlag' countryCode="DK" svg onClick={() => { changeLanguage("da") }} />
-              </Button>
-              <Button>
-                <ReactCountryFlag className='countryFlag' countryCode="GB" svg onClick={() => { changeLanguage("en") }} />
-              </Button>
-            </li>
-          </ul>
+    <nav className="navbar custom-no-print">
+      <div className="navbar-container">
+        <NavLink to="/" className='navbar-logo' onClick={handleCloseMobileMenu}>SHG</NavLink>
+        <div className="menu-icon" onClick={handleMenuIconClick}>
+          <span className="material-icons-outlined">{menuIconClick ? 'close' : 'menu'}</span>
         </div>
-      </nav>
+
+        <ul className={menuIconClick ? 'nav-menu active' : 'nav-menu'}>
+          <CustomNavLink customLinkTo="/" name={t('navbar.home')} customOnClick={handleCloseMobileMenu} />
+          <CustomNavLink customLinkTo="/my-cv" name={t('navbar.my-cv')} customOnClick={handleCloseMobileMenu} />
+          {/* <CustomNavLink customLinkTo="/planio" name={t('navbar.planio')} customOnClick={handleCloseMobileMenu} /> */}
+          <CustomNavLink customLinkTo="https://play.google.com/store/apps/details?id=com.planiobeta" name={t('navbar.planio')} customOnClick={handleCloseMobileMenu} />
+          <CustomNavLink customLinkTo="https://cookiecare.io/" name={t('navbar.cookiecare')} customOnClick={handleCloseMobileMenu} />
+        </ul>
+
+        <ul className=' flex gap-6 country-flag-container'>
+          <li>
+            <ReactCountryFlag className='countryFlag' countryCode="DK" svg onClick={() => { changeLanguage("da") }} />
+            <ReactCountryFlag className='countryFlag' countryCode="GB" svg onClick={() => { changeLanguage("en") }} />
+          </li>
+        </ul>
+      </div>
+    </nav>
   )
 }
 

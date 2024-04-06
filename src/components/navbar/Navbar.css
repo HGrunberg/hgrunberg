@@ -46,12 +46,17 @@
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  transition: all 0.2s ease-in;
+  transition: all 0.1s ease-in;
 }
+
+ .country-flag-container li {
+  display: flex;
+  gap: 16px;
+ }
 
 .nav-links:hover {
   border-bottom: 4px solid var(--clr-primary);
-  transition: all 0.2s ease-out;
+  transition: all 0.1s ease-out;
 }
 
 .fa-bars {
@@ -83,8 +88,7 @@
 
   .country-flag-container {
     position: absolute;
-    top: 25%;
-    left: 40%;
+    left: 45%;
   }
 
   .countryFlag {

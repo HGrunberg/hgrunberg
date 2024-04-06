@@ -42,14 +42,63 @@ textarea {
 
 ::-webkit-scrollbar-track {
     background-color: var(--clr-ligher-dark);
-    border-radius: 100vh;
+    border-bottom-left-radius: 100vh;
+    border-bottom-right-radius: 100vh;
 }
 
 ::-webkit-scrollbar-thumb {
-    border-radius: 100vh;
+    border-bottom-left-radius: 100vh;
+    border-bottom-right-radius: 100vh;
     background-color: var(--clr-primary);
 }
 
 ::-webkit-scrollbar-thumb:hover {
     background-color: var(--clr-light);
+}
+
+
+
+@media print {
+
+
+    @page {
+        size: A4;
+        margin-top: 1in;
+    }
+    @page :first {
+        margin-top: 0.5in;
+    }
+
+    #cv-page *,
+    #ContactMeId * {
+        opacity: 1 !important;
+        transform: none !important;
+    }
+
+    .print-img {
+        width: 20px;
+    }
+      
+
+    .print-pagebreak {
+        break-after: page;
+    }
+
+    .custom-no-print {
+        display: none;
+    }
+
+    .custom-cv-items-container {
+        margin-top: 1rem !important;
+    }
+
+    .custom-cv-item-print {
+        padding: 16px !important;
+    }
+
+    .custom-cv-item-info-print {
+        margin-block: 0.5rem !important;
+    }
+
+
 }

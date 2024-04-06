@@ -5,6 +5,7 @@ import WhyMe from "../homeSections/WhyMe";
 import { MuiContactForm } from "../homeSections/MuiContactForm";
 import HeroSection from "../homeSections/HeroSection";
 import Projects from "../components/Projects";
+import AllTestimonials from "../components/AllTestimonials";
 
 
 export default function HomePage() {
@@ -18,11 +19,14 @@ export default function HomePage() {
                 <HeroSection />
 
                 <AboutMe />
-                
                 {/* made with hover.dev */}
                 <Projects />
 
+                <AllTestimonials />
+
                 <WhyMe />
+
+
 
                 <MuiContactForm />
             </section>

@@ -65,9 +65,12 @@ function App() {
     )
   }
 
+
   return (
     <>
-      <ToastContainer />
+      <div className='custom-no-print'>
+        <ToastContainer />
+      </div>
       <main className='relative'>
         <div className='sticky top-0 z-50 my-header'>
           <RevealFade>

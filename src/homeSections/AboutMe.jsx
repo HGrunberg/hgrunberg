@@ -17,11 +17,14 @@ function AboutMe() {
             <Reveal>
                 <img className="object-cover my-4 mx-auto shadow-md shadow-primary" src="/about-me-img.jpg" alt="Image of Planio" />
             </Reveal>
+
             <div className='flex flex-col gap-6'>
                 <div>
                     <Reveal>
-                        <CustomH2 className='2xl:text-4xl'>{t('aboutMeSection.title')}</CustomH2>
+                        <CustomH2 className='2xl:text-4xl text-center'>{t('aboutMeSection.title')}</CustomH2>
+                        <div className='mt-2'>
                         <CustomH3 className=' 2xl:text-xl'>{t('aboutMeSection.sub-title')}</CustomH3>
+                        </div>
                     </Reveal>
                 </div>
                 <Reveal>

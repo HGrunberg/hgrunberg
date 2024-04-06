@@ -112,7 +112,7 @@ export const MuiContactForm = () => {
             <div id="ContactMeId" className=" mt-4 mb-28 mx-auto w-4/5 max-w-7xl text-light">
                 <Reveal>
                     <div className="mb-8">
-                        <CustomH2 className='2xl:text-4xl'>{t('contactForm.title')} {`:}`}</CustomH2>
+                        <CustomH2 className='text-center 2xl:text-4xl'>{t('contactForm.title')} {`:}`}</CustomH2>
                     </div>
                 </Reveal>
 
@@ -150,7 +150,7 @@ export const MuiContactForm = () => {
                                 inputProps={
                                     {
                                         sx: {
-                                            color: '#d3bb7b',
+                                            color: '#d3bb7bs',
                                             '&::placeholder': {
                                                 color: '#F2F2F2',
                                                 opacity: 0.7,
@@ -173,7 +173,7 @@ export const MuiContactForm = () => {
                                 inputProps={
                                     {
                                         sx: {
-                                            color: '#d3bb7b',
+                                            color: '#d3bb7bs',
                                             '&::placeholder': {
                                                 color: '#F2F2F2',
                                                 opacity: 0.7,
@@ -201,7 +201,7 @@ export const MuiContactForm = () => {
                                 inputProps={
                                     {
                                         sx: {
-                                            color: '#d3bb7b',
+                                            color: '#d3bb7bs',
                                             '&::placeholder': {
                                                 color: '#F2F2F2',
                                                 opacity: 0.7,

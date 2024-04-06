@@ -57,7 +57,7 @@ function WhyMe() {
 
         <div id='WhyMeId' className=" my-10 mx-auto w-4/5 max-w-7xl text-light">
             <Reveal>
-                <CustomH2 className='2xl:text-4xl'>{t('whyMeSection.title')}</CustomH2>
+                <CustomH2 className='text-center 2xl:text-4xl'>{t('whyMeSection.title')}</CustomH2>
                 <CustomP className=' max-w-lg mx-auto 2xl:text-lg' weight="font-light" >{t('whyMeSection.info')}</CustomP>
             </Reveal>
             <AnimateHeight

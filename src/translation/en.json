@@ -18,11 +18,12 @@
     },
     "aboutMeSection": {
         "title": "A 22-year old Multimedia Design-student with a high potential",
-        "sub-title": "Frontend, UX/UI, design, SoMe & humor",
+        "sub-title": "React (Native), UX/UI, design & humor",
         "info": "I am a smiling, 22-year old student, who is born and raised in Randers and now live in Odder with my girlfriend Nikoline. I spend my free time with family, running and work on my personal project Planio, which is an app for daily planning. I am currently studying Multimedia Design in Viby and have a year left."
     },
     "projectsSection": {
         "password": "Password",
+        "grade": "Grade",
         "planioProject": {
             "title": "Planio",
             "description": "Planio shows my skills and ability to stand behind my work"
@@ -38,10 +39,27 @@
     },
     "testimonialsSection": {
         "title": "What does people say about me?",
+        "description": "I am grateful for the network I have built, where my colleagues, teachers, and classmates have shared their honest feedback and opinions about me.",
 
         "netto": {
             "title": "Christian, Netto",
-            "testimonial": "Sebastian always arrives happy and smiling on work. He always takes any tasks positively, furthermore they are completed with quality. Sebastian is loved by his colleagues, Sebastian is flexible and are always ready to help, e.g. on holidays or colleagues being sick. My warmest recommendation shall Sebastian take with him. Sebastian will always be welcome to come back to Netto, if wanted by him."
+            "testimonial-1": "Sebastian always arrives happy and smiling on work. He always takes any tasks positively, furthermore they are completed with quality. Sebastian is loved by his colleagues.",
+            "testimonial-2": "Sebastian is flexible and are always ready to help, e.g. on holidays or colleagues being sick. My warmest recommendation shall Sebastian take with him. Sebastian will always be welcome to come back to Netto, if wanted by him."
+        },
+        "lykke": {
+            "title": "Lykke, lecturer on EAAA",
+            "testimonial-1": "Sebastian is the person who, with his commitment, eagerness to learn, and his good, humorous way of being, lifts the mood and the collective effort for the work environment and collegial cooperation.",
+            "testimonial-2": "He is a conscientious, reliable team player who meets deadlines and delivers with substantial and thoughtful quality at a high level. Sebastian receives my warmest recommendations, and if I were to give him a general grade, he would probably exceed the scale with an old-fashioned 13!"
+        },
+        "feedback": {
+            "title": "Feedback for group submission, 2023",
+            "testimonial-1": "You demonstrate a really good understanding in the use of the selected methods and connect them in a way that adds value to your development process. [...] A convincing target audience analysis with segmentation and collection in elaborated personas. The same applies to the other elements, such as empathy cards and VPC in the report's UX section.",
+            "testimonial-2": "[...] Nicely documented code. There is a lot of JS code in the report, and it works really well with explanations and screenshots. Please continue with this. The style laid out for code documentation is completely in line with what I would expect in a report where code is discussed. GREAT WORK!"
+        },
+        "christoffer": {
+            "title": "Christoffer, exam partner for Annes Frokost",
+            "testimonial-1": "I am happy and satisfied with the process and how our collaboration has been in the group. [...] Due to our natural interest in the subject, I also think we have come a long way considering the short time we had for the project.",
+            "testimonial-2": "[...] we have been good at creating a proper structure for the project from the beginning."
         }
     },
     "whyMeSection": {
@@ -111,6 +129,7 @@
                 "elementor": "Elementor",
                 "wordpress": "Wordpress",
                 "design": "Design",
+                "ai": "ChatGPT",
                 "debugging": "Debugging code errors",
                 "php": "A few PHP tasks"
             },

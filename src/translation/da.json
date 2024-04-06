@@ -18,18 +18,19 @@
     },
     "aboutMeSection": {
         "title": "En 22-årig multimediedesign-studerende med stort potentiale",
-        "sub-title": "Frontend, UX/UI, design, SoMe & humor",
+        "sub-title": "React (Native), UX/UI, design & humor",
         "info": "Jeg er en smilende, 22-årige studerende, der er født og opvokset i Randers og nu bor i Odder, hvor jeg bor i rækkehus med min kæreste Nikoline. I min fritid holder jeg af at være sammen med familie, løbe ture samt at arbejde på mit projekt Planio, som er et værktøj til dagsplanlægning. Jeg læser p.t. på multimediedesignuddannelsen i Viby og har under et år tilbage af uddannelsen."
     },
     "projectsSection": {
         "password": "Kode",
+        "grade": "Karakter",
         "planioProject": {
             "title": "Planio",
             "description": "Planio viser mine kompetencer og evne til at stå inde for mit arbejde"
         },
         "cookiecareProject": {
             "title": "Cookiecare.io",
-            "description": "Hjemmesiden er lavet i Elementor under min praktik hos Brand by Hand"
+            "description": "Lavet i Elementor under min praktik hos Brand by Hand"
         },
         "annesProject": {
             "title": "Annes Frokost",
@@ -38,10 +39,27 @@
     },
     "testimonialsSection": {
         "title": "Hvad siger andre om mig?",
+        "description": "Jeg er taknemmelig for det netværk, jeg har opbygget, hvor mine kollegaer, lærere og klassekamarater har delt deres ærlige feedback og udtalelser om mig.",
 
         "netto": {
             "title": "Christian, Netto",
-            "testimonial": "Sebastian møder altid smilende og glad på arbejde, som tager positivt imod enhver opgave, ydermere bliver opgaverne udført på et højt niveau. Sebastian er vellidt blandt sinekollegaer, Sebastian er flexibel og give gerne en hånd med i forbindelse med sygdom, ferie og helligdage. Mine varmeste anbefaling skal Sebastian få med sig, Sebastian vil altid være velkommen i Netto igen, hvis dette måtte være ønsket."
+            "testimonial-1": "Sebastian møder altid smilende og glad på arbejde, som tager positivt imod enhver opgave, ydermere bliver opgaverne udført på et højt niveau. Sebastian er vellidt blandt sine kollegaer.",
+            "testimonial-2": "Sebastian er flexibel og give gerne en hånd med i forbindelse med sygdom, ferie og helligdage. Mine varmeste anbefaling skal Sebastian få med sig, Sebastian vil altid være velkommen i Netto igen, hvis dette måtte være ønsket."
+        },
+        "lykke": {
+            "title": "Lykke, lektor på EAAA",
+            "testimonial-1": "Sebastian er den person, der med sit engagement, iver efter at lære og sin gode, humoristiske måde at være på løfter stemningen og den fælles indsats for arbejdsmiljø og kollegialt samarbejde.",
+            "testimonial-2": "Han er en pligtopfyldende, stabil teamplayer, der overholder deadlines, og leverer med substantiel og gennemtænkt kvalitet på et højt niveau. Sebastian får mine varmeste anbefalinger, og hvis jeg skulle sætte en generel karakter på ham, så ville han nok springe skalaen med et gammeldags 13-tal!"
+        },
+        "feedback": {
+            "title": "Feedback for gruppeaflevering, 2023",
+            "testimonial-1": "I udviser en rigtig god forståelse i brugen af de valgte metoder og kobler dem sammen på en måde, der giver værdi til jeres udviklingsproces. [...] En overbevisende målgruppeanalyse med segmentering og opsamling i udarbejdede personas. Det samme gælder for de øvrige elementer, som empatikort og VPC i rapportens UX-afsnit.",
+            "testimonial-2": "[...] Rigtigt fint dokumenteret kode. Der er en del JS kode inde i rapporten og det virker rigtigt fint med forklaringer og screendumps. Bliv endeligt ved med det. Den stil der er lagt for kode-dokumentationen, er helt i tråd med hvad jeg vil forvente i en rapport, hvor der er skrevet om kode. FLOT ARBEJDE!"
+        },
+        "christoffer": {
+            "title": "Christoffer, eksamensmakker til Annes Frokost",
+            "testimonial-1": "Jeg er glad og tilfreds med forløbet og hvordan vores samarbejde har været i gruppen. [...] Grundet vores naturlige interesse i faget, synes jeg også at vi er nået rigtig langt i forhold til hvor kort tid vi har haft til projektet.",
+            "testimonial-2": "[...] vi har været gode til at skabe en ordentlig struktur i projektet fra starten."
         }
     },
     "whyMeSection": {
@@ -111,6 +129,7 @@
                 "elementor": "Elementor",
                 "wordpress": "Wordpress",
                 "design": "Design",
+                "ai": "ChatGPT",
                 "debugging": "Fejlfinding ved kodefejl",
                 "php": "Enkelte PHP-opgaver"
             },

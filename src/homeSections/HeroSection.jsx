@@ -28,10 +28,10 @@ function HeroSection() {
                                 <p className="text-center text-xs 2xl:text-lg font-Comfortaa font-thin mb-1">{t('heroSection.intro-text')}</p>
                                 <h1 className=" text-center text-4xl 2xl:text-5xl font-Comfortaa font-bold text-primary mb-2">{t('heroSection.title')} {`:}`}</h1>
                             </div>
-                            <div className=''>
+                            <div className='mt-8'>
                                 <CustomP className='2xl:text-xl'>{t('heroSection.intro-text-explainer')}</CustomP>
                                 <div className='flex flex-col flex-wrap items-center gap-4 my-4 '>
-                                    <Button variant="contained" size='large' sx={{
+                                    {/* <Button variant="contained" size='large' sx={{
                                         padding: '0',
                                         ':hover': {
                                             bgcolor: 'primary.lighterDark', // theme.palette.primary.main
@@ -52,7 +52,8 @@ function HeroSection() {
                                     }}
                                     >
                                         <Link className=' py-2 px-8' to="ContactMeId" spy={true} smooth={true} offset={-100} duration={500}>{t('heroSection.contactButton')}</Link>
-                                    </Button>
+                                    </Button> */}
+
                                 </div>
                             </div>
                         </div>

@@ -36,6 +36,7 @@ const HorizontalScrollCarousel = () => {
             url: "",
             title: `${t('projectsSection.annesProject.title')}`,
             description: `${t('projectsSection.annesProject.description')}`,
+            grade: `${t('projectsSection.grade')}: 12`,
             login: `E-mail: shg@gmail.com, ${t('projectsSection.password')}: 123456`,
         },
     ];
@@ -50,6 +51,7 @@ const HorizontalScrollCarousel = () => {
     return (
         <section ref={targetRef} className="relative h-[300vh]">
             <div className="sticky top-0 flex h-screen items-center overflow-hidden">
+
                 <motion.div style={{ x }} className="flex gap-4">
                     {cards.map((card, index) => {
                         return <Card card={card} key={index} />;
@@ -81,6 +83,9 @@ const Card = ({ card }) => {
                     </p>
                     <p className="px-2 sm:px-8 pb-4 w-60 sm:w-full text-sm sm:text-xl font-Comfortaa text-light">
                         {card.description}
+                    </p>
+                    <p className="px-2 sm:px-8 pb-4 text-sm text-light font-Comfortaa">
+                        {card.grade}
                     </p>
                     <p className="px-2 sm:px-8 pb-4 text-sm text-light font-Comfortaa">
                         {card.login}
