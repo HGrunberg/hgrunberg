@@ -19,14 +19,14 @@ function HeroSection() {
             <RevealFade>
                 <div className=" my-10 mx-auto w-4/5 max-w-7xl text-light">
                     <div className='md:hidden'>
-                        <p className="text-center text-xs font-Comfortaa font-thin mb-1">{t('heroSection.intro-text')}</p>
-                        <h1 className=" text-center text-4xl font-Comfortaa font-bold text-primary mb-2">{t('heroSection.title')} {`:}`}</h1>
+                        <p className="text-center text-xs font-Quicksand text-dark font-thin mb-1">{t('heroSection.intro-text')}</p>
+                        <h1 className=" text-center text-4xl font-Quicksand font-bold text-primary mb-2">{t('heroSection.title')} {`:}`}</h1>
                     </div>
                     <div className=" grid md:grid-cols-2 md:items-center">
                         <div>
                             <div className='hidden md:block'>
-                                <p className="text-center text-xs 2xl:text-lg font-Comfortaa font-thin mb-1">{t('heroSection.intro-text')}</p>
-                                <h1 className=" text-center text-4xl 2xl:text-5xl font-Comfortaa font-bold text-primary mb-2">{t('heroSection.title')} {`:}`}</h1>
+                                <p className="text-center text-xs 2xl:text-lg font-Quicksand font-thin mb-1">{t('heroSection.intro-text')}</p>
+                                <h1 className=" text-center text-4xl 2xl:text-5xl font-Quicksand font-bold text-primary mb-2">{t('heroSection.title')} {`:}`}</h1>
                             </div>
                             <div className='mt-8'>
                                 <CustomP className='2xl:text-xl'>{t('heroSection.intro-text-explainer')}</CustomP>

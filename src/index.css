@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Quicksand:wght@300..700&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
     --clr-primary: #d3bb7b;
+    --clr-secondary: #9E4020;
     --clr-light: #F2F2F2;
     --clr-dark: #011a11;
     --clr-ligher-dark: #244E3E;
@@ -30,7 +34,7 @@ textarea {
     padding-inline: 0.5rem;
     color: var(--clr-light);
     border-bottom: 2px solid var(--clr-primary);
-    font-family: 'Comfortaa';
+    font-family: "Quicksand";
     font-weight: 300;
 }
 

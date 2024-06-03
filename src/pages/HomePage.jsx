@@ -6,6 +6,8 @@ import { MuiContactForm } from "../homeSections/MuiContactForm";
 import HeroSection from "../homeSections/HeroSection";
 import Projects from "../components/Projects";
 import AllTestimonials from "../components/AllTestimonials";
+import { DisappearingFeatures } from "../components/Features";
+import CustomTestimonials from "../components/CustomTestimonials";
 
 
 export default function HomePage() {
@@ -26,6 +28,9 @@ export default function HomePage() {
 
                 <WhyMe />
 
+                <DisappearingFeatures />
+
+                <CustomTestimonials />
 
 
                 <MuiContactForm />

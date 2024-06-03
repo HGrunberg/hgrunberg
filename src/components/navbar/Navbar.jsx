@@ -48,7 +48,7 @@ function Navbar() {
           <CustomNavLink customLinkTo="/" name={t('navbar.home')} customOnClick={handleCloseMobileMenu} />
           <CustomNavLink customLinkTo="/my-cv" name={t('navbar.my-cv')} customOnClick={handleCloseMobileMenu} />
           {/* <CustomNavLink customLinkTo="/planio" name={t('navbar.planio')} customOnClick={handleCloseMobileMenu} /> */}
-          <CustomNavLink customLinkTo="https://play.google.com/store/apps/details?id=com.planiobeta" name={t('navbar.planio')} customOnClick={handleCloseMobileMenu} />
+          <CustomNavLink customLinkTo="https://minplanio.dk/" name={t('navbar.planio')} customOnClick={handleCloseMobileMenu} />
           <CustomNavLink customLinkTo="https://cookiecare.io/" name={t('navbar.cookiecare')} customOnClick={handleCloseMobileMenu} />
         </ul>
 

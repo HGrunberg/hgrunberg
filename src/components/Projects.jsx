@@ -6,7 +6,7 @@ import Reveal from "./Reveal";
 
 const Projects = () => {
     return (
-        <div className="bg-primary">
+        <div className="bg-[#9E4020]">
             <div className="mx-auto max-w-7xl w-4/5">
                 <HorizontalScrollCarousel />
             </div>
@@ -26,18 +26,24 @@ const HorizontalScrollCarousel = () => {
             description: `${t('projectsSection.planioProject.description')}`
         },
         {
-            link: "https://cookiecare.io/",
-            url: "https://www.wpnordic.com/wp-content/uploads/2023/09/Mask-Group-3.svg",
-            title: `${t('projectsSection.cookiecareProject.title')}`,
-            description: `${t('projectsSection.cookiecareProject.description')}`,
-        },
-        {
             link: "https://annes.hgrunberg.dk/",
             url: "",
             title: `${t('projectsSection.annesProject.title')}`,
             description: `${t('projectsSection.annesProject.description')}`,
             grade: `${t('projectsSection.grade')}: 12`,
             login: `E-mail: shg@gmail.com, ${t('projectsSection.password')}: 123456`,
+        },
+        {
+            link: "https://tpi-ea.dk/",
+            url: "http://tpi-ea.byhand.nu/wp-content/uploads/2024/02/Logo.png",
+            title: `${t('projectsSection.tpi-eaProject.title')}`,
+            description: `${t('projectsSection.tpi-eaProject.description')}`,
+        },
+        {
+            link: "https://cookiecare.io/",
+            url: "https://www.wpnordic.com/wp-content/uploads/2023/09/Mask-Group-3.svg",
+            title: `${t('projectsSection.cookiecareProject.title')}`,
+            description: `${t('projectsSection.cookiecareProject.description')}`,
         },
     ];
 
@@ -71,7 +77,8 @@ const Card = ({ card }) => {
             <div
                 style={{
                     backgroundImage: `url(${card.url})`,
-                    backgroundSize: "cover",
+                    backgroundSize: "contain",
+                    backgroundRepeat: "no-repeat",
                     backgroundPosition: "center",
                 }}
                 className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110"
