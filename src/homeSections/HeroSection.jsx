@@ -19,7 +19,7 @@ function HeroSection() {
             <RevealFade>
                 <div className=" my-10 mx-auto w-4/5 max-w-7xl text-light">
                     <div className='md:hidden'>
-                        <p className="text-center text-xs font-Quicksand text-dark font-thin mb-1">{t('heroSection.intro-text')}</p>
+                        <p className="text-center text-xs font-Libre Franklin text-primary font-thin mb-1">{t('heroSection.intro-text')}</p>
                         <h1 className=" text-center text-4xl font-Quicksand font-bold text-primary mb-2">{t('heroSection.title')} {`:}`}</h1>
                     </div>
                     <div className=" grid md:grid-cols-2 md:items-center">

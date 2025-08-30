@@ -14,6 +14,17 @@ export default function HomePage() {
 
     const { t } = useTranslation()
 
+    useEffect(() => {
+        const spinnerElement = document.getElementById("spinner");
+        if (spinnerElement) {
+            setTimeout(() => {
+                spinnerElement.style.opacity = "0";
+            }, 1000);
+        }
+    }, [])
+
+
+
     return (
         <>
 

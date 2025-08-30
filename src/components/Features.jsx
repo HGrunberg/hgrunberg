@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import CustomH2 from "./CustomH2";
 
 export const DisappearingFeatures = () => {
     return (
@@ -28,9 +29,9 @@ const Copy = () => {
             <span className="w-fit rounded-full bg-indigo-500 px-4 py-2 text-sm uppercase text-indigo-100">
                 Projekter
             </span>
-            <h2 className="mb-4 mt-2 text-5xl font-medium leading-tight">
-                Lorem ipsum dolor sit amet consectetur 
-            </h2>
+            <CustomH2>
+                Lorem ipsum dolor sit amet consectetur
+            </CustomH2>
             <p className="text-lg text-indigo-950">
                 Projekterne viser min evne til at arbejde med flere værktøjer
                 Projekterne viser min evne til at arbejde med flere værktøjer
@@ -119,16 +120,16 @@ const CarouselItem = ({ scrollYProgress, position, numItems, card }) => {
                 className="grid aspect-video w-full shrink-0   "
             >
                 <img src={card.url} className="w-[250px] ml-auto rounded-tr" alt="" />
-                <p className="px-2 sm:px-8 pt-4 text-2xl sm:text-4xl uppercase font-Comfortaa text-dark">
+                <p className="px-2 sm:px-8 pt-4 text-2xl sm:text-4xl uppercase text-dark">
                     {card.title}
                 </p>
-                <p className="px-2 sm:px-8 pb-4 w-60 sm:w-full text-sm sm:text-xl font-Comfortaa text-dark">
+                <p className="px-2 sm:px-8 pb-4 w-60 sm:w-full text-sm sm:text-xl text-dark">
                     {card.description}
                 </p>
-                <p className="px-2 sm:px-8 pb-4 text-sm text-dark font-Comfortaa">
+                <p className="px-2 sm:px-8 pb-4 text-sm text-dark">
                     {card.grade}
                 </p>
-                <p className="px-2 sm:px-8 pb-4 text-sm text-dark font-Comfortaa">
+                <p className="px-2 sm:px-8 pb-4 text-sm text-dark">
                     {card.login}
                 </p>
             </motion.div>

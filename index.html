@@ -1,14 +1,62 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Holm Grünberg</title>
 
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Holm Grünberg</title>
+
+
+  <style>
+    #spinner {
+      pointer-events: none;
+      transition: all 1s ease-in-out;
+    }
+
+    .spinner {
+      border: 4px solid #E8E8E8;
+      border-left-color: #C91B0A;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 1s linear infinite;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    /* Media query for small screens */
+    @media (max-width: 768px) {
+      .spinner {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  </style>
+
+
+</head>
+
+<body style="padding: 0; margin: 0;">
+  <div id="spinner"
+    style="height: 100dvh; width: 100dvw; position: fixed; top: 0; left: 0; z-index: 999; background-color: #5E2D6E;">
+    <div class="spinner"></div>
+  </div>
+
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
 </html>

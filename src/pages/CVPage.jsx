@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useTranslation } from 'react-i18next';
 import CustomH2 from "../components/CustomH2";
 import CustomH3 from "../components/CustomH3";
@@ -14,6 +14,15 @@ import Reveal from '../components/Reveal';
 function CVPage() {
 
   const { t } = useTranslation()
+
+  useEffect(() => {
+    const spinnerElement = document.getElementById("spinner");
+    if (spinnerElement) {
+      setTimeout(() => {
+        spinnerElement.style.opacity = "0";
+      }, 1000);
+    }
+  }, [])
 
   return (
     <>

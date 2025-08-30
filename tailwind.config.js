@@ -6,7 +6,9 @@ export default {
   ],
   theme: {
     fontFamily: {
-      Comfortaa: ['Comfortaa', 'cursive', 'sans-serif']
+      anekTamil: ['Anek Tamil', 'sans-serif'],
+      libreBaskerville: ['Libre Baskerville', 'serif'],
+      libreFranklin: ['Libre Franklin', 'sans-serif'],
     },
     colors: {
       primary: '#d3bb7b',
